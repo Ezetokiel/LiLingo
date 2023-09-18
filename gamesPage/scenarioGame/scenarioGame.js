@@ -49,7 +49,7 @@ function wrong(){
 function correct(){
     result.innerText = "That was correct. Good Job!"
     result.classList.remove("hide");
-    setTimeout(replaceElements, 2000);
+    setTimeout(replaceElements, 1000);
 }
 
 function replaceElements(){

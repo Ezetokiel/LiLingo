@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'lora';
+    background-color: #e9eef0;
+}
+
+.top-part{
+    background-color: #99dbf7;
+}
+
+nav{
+    height: 10vh;
+    width: 100%;
+}
+
+nav ul{
+    float: right;
+    margin-right: 5vw;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 12.5vh;
+    margin: 0 1vw;
+}
+
+nav ul li a{
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+a.active, a:hover{
+    color: #949a9d;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+label.logo, a.logo{
+    margin-left: 2.5vw;
+    line-height: 80px;
+    font-size: 28px;
+    text-decoration: none;
+    color: #000;
+}
+
+div.welcome-part{
+    padding: 10vh 12vw 20vh;
+    color: #000;
+    height: 50vh;
+    width: 70vw;
+}
+
+h1.website-name{
+    font-size: 72px;
+}
+
+p.slogan{
+    font-size: 30px;
+    margin-top: 2vh;
+}
+
+h3.about{
+    font-size: 28px;
+    margin: 5vh 5vw;
+}
+
+div.main-content-container{
+    display: flex;
+    justify-content: center;
+}
+
+div.main-content{
+    height: fit-content;
+    width: 90vw;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #000;
+    border-radius: 16px;
+    padding: 3vh 5vw;
+    margin-bottom: 5vh;
+    min-height: 36vh;
+}
+
+h3.tip{
+    font-size: 32px;
+    margin-bottom: 2vh;
+}
+
+p.description{
+    font-size: 22px;
+    margin-bottom: 4vh;
+}
+
+button.tip-buttons{
+    padding: 1.5vh 1.5vw;
+    border-radius: 18px;
+    font-size: 16px;
+    background-color: #7db3c6;
+    border: none;
+}
+
+button.tip-buttons:hover, button.tip-buttons:active{
+    background-color: #6d9dae;
+    transition: 0.3s;
+}
+
+button#next{
+    margin-left: 1vw;
+}

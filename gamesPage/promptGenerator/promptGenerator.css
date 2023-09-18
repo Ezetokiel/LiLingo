@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'lora';
+    background-color: #99dbf7;
+}
+
+nav{
+    height: 10vh;
+    width: 100%;
+}
+
+nav ul{
+    float: right;
+    margin-right: 5vw;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 12.5vh;
+    margin: 0 1vw;
+}
+
+nav ul li a{
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+a.active, a:hover{
+    color: #949a9d;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+label.logo, a.logo{
+    margin-left: 2.5vw;
+    line-height: 80px;
+    font-size: 28px;
+    text-decoration: none;
+    color: #000;
+}
+
+div.main-content{
+    margin-top: 4vh;
+    padding: 3vh 0;
+    text-align: center;
+}
+
+h2.title{
+    font-size: 24px;
+}
+
+p#prompt{
+    margin-top: 20vh;
+    font-size: 30px;
+}
+
+button.new-prompt-button{
+    margin-top: 5vh;
+    padding: 2vh 1.5vw;
+    border-radius: 18px;
+    font-size: 16px;
+    background-color: #00a5e7;
+    border: none;
+}
+
+button.new-prompt-button:hover, button.new-prompt-button:active{
+    background-color: #547fc3;
+    transition: 0.3s;
+}

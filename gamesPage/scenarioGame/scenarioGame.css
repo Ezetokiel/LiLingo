@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'lora';
+    background-color: #99dbf7;
+}
+
+nav{
+    height: 10vh;
+    width: 100%;
+}
+
+nav ul{
+    float: right;
+    margin-right: 5vw;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 12.5vh;
+    margin: 0 1vw;
+}
+
+nav ul li a{
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+a.active, a:hover{
+    color: #949a9d;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+label.logo, a.logo{
+    margin-left: 2.5vw;
+    line-height: 80px;
+    font-size: 28px;
+    text-decoration: none;
+    color: #000;
+}
+
+div.game-container{
+    width: 100%;
+    height: fit-content;
+    padding: 18vh 15vw 0 15vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.scenario-container{
+    height: 100%;
+}
+
+h2.scenario{
+    font-size: 32px;
+}
+
+div.scenario-container{
+    margin-bottom: 8vh;
+    display: flex;
+    align-items: center;
+}
+
+.options{
+    width: fit-content;
+    min-width: 6vw;
+    padding: 1.5vh 1vw;
+    border-radius: 20px;
+    border: none;
+    margin: 0 1vw;
+    background-color: #dff2ed;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button.options:hover, button.options:active{
+    background-color: #c8dbd6;
+    transition: 0.3s;
+}
+
+h3.hide{
+    display: none;
+}
+
+h3.result{
+    font-size: 24px;
+    margin-top: 5vh;
+}
+
+a.back-to-homepage{
+    min-width: 6vw;
+    padding: 1.5vh 1vw;
+    border-radius: 20px;
+    border: none;
+    margin-top: 8vh;
+    background-color: #dff2ed;
+    cursor: pointer;
+    color: #000;
+}
+
+a.back-to-homepage:hover, a.back-to-homepage:active{
+    background-color: #c8dbd6;
+    transition: 0.3s;
+    text-decoration: none;
+    color: #000;
+}

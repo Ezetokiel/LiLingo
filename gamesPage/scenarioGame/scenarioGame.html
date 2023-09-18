@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scenarioGame.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <!--Playfair Display for quote and Lora for normal text-->
+    <title>Games | LiLingo</title>
+</head>
+<body>
+    <nav>
+        <a href="../../index.html" class="logo"><label class="logo">LiLingo</label></a>
+        <ul>
+            <li><a href="../../tipsPage/tipsPage.html">Communication 101</a></li>
+            <li><a href="../gamesPage.html">Games</a></li>
+        </ul>
+    </nav>
+
+    <div class="game-container">
+        <div class="scenario-container">
+            <h2 class="scenario">If your parents ask you to go and do your homework, what should you say in reply?</h2>
+        </div>
+        <div class="option-container">
+            <button class="options" onclick="wrong()" id="button-one">No! I want to play my games</button>
+            <button class="options" onclick="wrong()" id="button-two">I hate homework!</button>
+            <button class="options" onclick="correct()" id="button-three">I will go and do my homework now</button>
+            <button class="options" onclick="wrong()" id="button-four">Can't you do it for me?</button>
+        </div>
+        <h3 class="hide result" id="result-text">That was correct! Good job!</h3>
+    </div>
+
+    <script src="scenarioGame.js"></script>
+</body>
+</html>
